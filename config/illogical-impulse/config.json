@@ -8,7 +8,12 @@
         "palette": {
             "type": "auto"
         },
-        "transparency": true
+        "transparency": true,
+        "wallpaperTheming": {
+            "enableAppsAndShell": true,
+            "enableQtApps": true,
+            "enableTerminal": true
+        }
     },
     "apps": {
         "bluetooth": "kcmshell6 kcm_bluetooth",
@@ -54,7 +59,7 @@
         "verbose": true,
         "weather": {
             "city": "sanaa",
-            "enable": false,
+            "enable": true,
             "enableGPS": true,
             "fetchInterval": 10,
             "useUSCS": false
